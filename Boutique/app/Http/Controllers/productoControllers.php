@@ -10,7 +10,7 @@ class productoControllers extends Controller
 {
     public function crearP()
     {
-        $tipoProductos = tipoProductoModels::all();
+        $tipoProductos = tipoProductoModels::all(); //Para rellenar el select
         return view('productos.crearP', compact('tipoProductos'));
     }
 

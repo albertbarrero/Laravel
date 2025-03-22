@@ -1,4 +1,4 @@
-    <title>Crear Documento</title>
+    <title>Crear Producto</title>
 
     @extends('layout.nav') <!--llama al archivo layout.nav.php-->
     @section('content') <!-- seccion de contenido despues del navegador-->

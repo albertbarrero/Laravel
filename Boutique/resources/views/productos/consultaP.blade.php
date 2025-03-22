@@ -19,6 +19,7 @@
                 <img src="{{ asset('storage/productos/' . $producto->fotoProducto) }}" width="50" alt="">
                 </td>
                 <td>{{$producto->tipoProducto->nombreTipoProducto}}</td><!-- tipoProducto es el nombre de la tabla y nombreTipoProducto es el nombre de la columna -->
+                <!-- <td>{{$producto->idTipoProducto}}</td> -->
             </tr>
             @endforeach
        

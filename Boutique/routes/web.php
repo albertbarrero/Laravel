@@ -9,6 +9,12 @@ Route::get('/', function () {
 
 Route::get('/crearP', [productoControllers::class, 'crearP'])->name('crearP');
 
+
+
+
+
+
+
 Route::post('/guardarP', [productoControllers::class, 'guardarP'])->name('guardarP');
 
 Route::get('/consultaP', [productoControllers::class, 'consultaP'])->name('consultaP');
